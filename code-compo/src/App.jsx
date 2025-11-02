@@ -12,7 +12,7 @@ const ApiProvider = ({ children }) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const API_URL = 'https://code-compo-back.vercel.app/'; // Your backend URL
+  const API_URL = 'http://localhost:3001'; // Your backend URL
 
   // Effect to load user from localStorage on initial load
   useEffect(() => {
